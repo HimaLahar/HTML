@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My First Form</h1>
+    <form action="nopage.php" method="push">
+      <div>
+        <label for="fname"> First Name : </label>
+        <input type="text" id="fname" name="fn" value="First Name" />
+      </div>
+      <br />
+      <div>
+        <label for="lname"> Last Name :</label>
+        <input type="text" id="lname" name="ln" value="Last Name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="email" id="email" name="em" value="Email@gmail.com" />
+      </div>
+      <br />
+      <div>
+        <label for="pwd"> Password &nbsp;&nbsp;:</label>
+        <input type="password" id="pwd" name="pw" value="1" />
+      </div>
+      <br />
+      <div>
+        <label for="age"> Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="datetime-local" id="age" name="age" />
+      </div>
+      <br />
+      <div>
+        <label for="tm"> Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="time" id="tm" name="tm" />
+      </div>
+      <br />
+      <div>
+        <label for="mb"> Mobile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="number" id="mb" name="mob" value="1" />
+      </div>
+      <br />
+      <div>
+        <label for="test"> Testing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="file" id="test" name="test" value="" />
+      </div><br>
+      <div>
+        <label for="newtest"> NewTest &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="image" src="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15-1024x768.jpg" height="100px" width="150px" alt="noimage" id="newtest" name="net" value="" />
+      </div>
+      <br>
+      <div>
+        <label for="nt"> NoTest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="range" id="nt" name="net" value="" />
+      </div><br>
+      <div>
+        <label for="mnt"> MainTest &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="color" id="mnt" name="mnet" value="" />
+      </div><br>
+      <div>
+        <input type="submit" id="pwd" name="sub" value="Send" /><br><br>
+        <input type="reset" id="res" name="res" value="Data Refesh" />
+      </div>
+      <br />
+    </form>
+  </body>
+</html>
