@@ -24,7 +24,9 @@
       </div>
       <br />
       <div>
-        <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <label for="email"
+          >Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+        >
         <input type="email" id="email" name="em" value="Email@gmail.com" />
       </div>
       <br />
@@ -34,12 +36,17 @@
       </div>
       <br />
       <div>
-        <label for="age"> Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <label for="age">
+          Age
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+        >
         <input type="datetime-local" id="age" name="age" />
       </div>
       <br />
       <div>
-        <label for="tm"> Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <label for="tm">
+          Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+        >
         <input type="time" id="tm" name="tm" />
       </div>
       <br />
@@ -51,22 +58,87 @@
       <div>
         <label for="test"> Testing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
         <input type="file" id="test" name="test" value="" />
-      </div><br>
+      </div>
+      <br />
       <div>
         <label for="newtest"> NewTest &nbsp;&nbsp;&nbsp;&nbsp;:</label>
-        <input type="image" src="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15-1024x768.jpg" height="100px" width="150px" alt="noimage" id="newtest" name="net" value="" />
+        <input
+          type="image"
+          src="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15-1024x768.jpg"
+          height="100px"
+          width="150px"
+          alt="noimage"
+          id="newtest"
+          name="net"
+          value=""
+        />
       </div>
-      <br>
+      <br />
       <div>
-        <label for="nt"> NoTest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <label for="nt">
+          NoTest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+        >
         <input type="range" id="nt" name="net" value="" />
-      </div><br>
+      </div>
+      <br />
       <div>
         <label for="mnt"> MainTest &nbsp;&nbsp;&nbsp;&nbsp;:</label>
         <input type="color" id="mnt" name="mnet" value="" />
-      </div><br>
+      </div>
+      <br />
       <div>
-        <input type="submit" id="pwd" name="sub" value="Send" /><br><br>
+        <p>Choose Gender</p>
+        <input type="radio" id="m" name="gender" value="Male" /><label for="m"
+          >Male</label
+        >
+        <input type="radio" id="f" name="gender" value="Female" /><label for="f"
+          >Female</label
+        >
+      </div>
+      <br />
+      <div>
+        <p>Check Subject for the course</p>
+        <input type="checkbox" id="mts" name="sub" value="maths" /><label
+          for="mts"
+        >
+          Maths</label
+        >
+        <input type="checkbox" id="ecs" name="sub" value="economics" /><label
+          for="ecs"
+        >
+          Economics</label
+        >
+        <input type="checkbox" id="sci" name="sub" value="science" /><label
+          for="sci"
+        >
+          Science</label
+        >
+        <input type="checkbox" id="sts" name="sub" value="statistics" /><label
+          for="sts"
+        >
+          Statistics</label
+        >
+      </div>
+      <br />
+      <div>
+        <p>Choose Courses and Fee:</p>
+        <select name="coursefee" id="cf" multiple>
+          <optgroup label="Course">
+            <option value="mpc">MPC</option>
+            <option value="mec">MEC</option>
+            <option value="bpc">BiPC</option>
+          </optgroup>
+          <optgroup label="Fee">
+            <option value="1000">1000</option>
+            <option value="500">500</option>
+            <option value="1000">1000</option>
+          </optgroup>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <input type="submit" id="pwd" name="sub" value="Send" /><br /><br />
         <input type="reset" id="res" name="res" value="Data Refesh" />
       </div>
       <br />
