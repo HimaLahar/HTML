@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Main Page of Index(Used Internal/inline styling)</title>
+<style>
+    /*Basic Selectors*/
+    /*1)selecting by tag name*/
+    h1{
+        background-color: rgb(43, 159, 226);
+    }
+    /*if given for tr it will be applicable to all tags ...so we will go with class names*/
+    /*2)selecting by class name*/
+    .ser{
+        background-color: aquamarine;
+    }
+    .ser2{
+        background-color:aliceblue;
+    }
+    /*3)selecting by id name*/
+    #th{
+        background-color: rgb(253, 137, 195);
+    }
+
+
+</style>
+
+</head>
+<body>
+    <h1 style="text-align:center;color:rgb(103, 158, 15);"> Table of contents</h1>
+    <table>
+        <!-- But keeping styling like this is not best practise code should be as much less as possible. here we gave both id and class same background styling with different color
+        so its not the correct process ..either give styling to class or give to id if giving same attribute like (background-color) means repetition is not correct. smae code should not be repeated -->
+        
+        <tr class="ser" id="th">
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Link</th>
+        </tr>
+        <tr class="ser2">
+            <td>1</td>
+            <td>My Resume</td>
+            <td><button><a href="./index2.html" target="_blank">Click Me</a></button></td>
+        </tr>
+        <tr class="ser">
+            <td>2</td>
+            <td>My Forms</td>
+            <td><button><a href="./forms.html" target="_blank">Click Me</a></button></td>
+        </tr>
+        <tr class="ser2">
+            <td>3</td>
+            <td>W3c First Class</td>
+            <td><button><a href="./w3cwebpage.html" target="_blank">Click Me</a></button></td>
+        </tr>
+        <tr class="ser">
+            <td>4</td>
+            <td>My First project</td>
+            <td><button><a href="./Firsthtmlpage.html" target="_blank">Click Me</a></button></td>
+        </tr>
+        <tr class="ser2">
+            <td>5</td>
+            <td>Everything Basics of HTML</td>
+            <td><button><a href="./everything.html" target="_blank">Click Me</a></button></td>
+        </tr>
+    </table>
+</body>
+</html>

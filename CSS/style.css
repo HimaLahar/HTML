@@ -1,0 +1,56 @@
+/*Basic Selectors*/
+/* There are so many colors each colors are represented with code numbers
+each color will have their own hexadecimal code.
+Every RBG color lies between 
+red lies between:0-200
+green lies between:0-200
+blue lies between:0-200
+alpha lies between:0.0-1.0
+with same color but if we want to make it light then we use alpha 
+(rgba)*/
+    body{
+    /*    background-color: rgba(192, 52, 32,0.5);*/
+    background-image: url('https://www.aib.edu.au/wp-content/uploads/2019/03/form-submission-7464-teamworkisimportantintheworkplace.jpg');
+    background-size: cover;
+    background-position: stretch;
+    background-repeat: no-repeat;
+      }
+    h1{
+        background-color: chocolate;
+        color:rgb(100, 198, 237);
+        text-align: center;
+    }
+    /*border for table, if we have to give same property for two elements we can give them by seperating with , like belowe */
+    th, td {
+        /*border: 2px solid brown;*/
+        /*we can give all in same line like above or we can give separately all like below*/
+        border-color: rgb(133, 178, 216);
+        border-style:groove;
+        
+        /*border: 2px;*/
+     }
+    table{
+        width:50%;
+        border-color: rgb(19, 214, 36);
+        border-style: dotted;
+        border-width: 5px;
+        margin-left: 250px;
+        margin-top: 145px;
+        padding: 8px;
+        background-color: blanchedalmond;
+    }
+    /*My questions?
+    Why am I getting double colors in the border*/
+    
+    #th {
+        background-color: rgb(253, 137, 195);
+    }
+    button {
+        display: auto;
+        background-color: rgb(253, 137, 195);
+    }
+    a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: none;
+        color:rgb(11, 14, 15);
+    }

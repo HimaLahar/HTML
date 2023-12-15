@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Complete Data(Practice) of HTML</title>
+</head> 
+<body>
+    <!--Headings and paragraph-->
+    <h1>Hello Hima</h1>
+    <h2>Hello Hima</h2>
+    <h3>Hello Hima</h3>
+    <h4>Hello Hima</h4>
+    <h5>Hello Hima</h5>
+    <!--- This title tag is called as tooltip.title is used to get a name in website when hovered mouse over it-->
+    <h6 title="Happy">Hello Hima</h6>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel veniam modi dolorum delectus reprehenderit inventore fugiat illo cum omnis deserunt assumenda distinctio ex, quaerat debitis nam quia soluta facilis est id quisquam accusantium. Sunt minima tempore debitis adipisci reiciendis earum. Sunt voluptates quibusdam accusamus explicabo expedita facilis rem, voluptate ex.</p>
+    <!--all headings differ by font-size and bold, everything heading comes in new line as heading elements are block elements-->
+    <!--Anchor and Image-->
+    <p>Links</p>
+    <a href="https://www.amazon.com" target="_blank" >Open Amazon</a><br>
+    <a href="mailto:123@gmail.com" target="_blank" >Mail Us</a><br>
+    <a href="tel:36254178952" target="_blank" >Call Us</a><br>
+    <a href="" target="_blank" >To Download</a>
+
+<!----early there used to have concept called frames in that we used to div element 
+if that we give
+ target="_parent" then the page opens in the next frame above it 
+_child the page opens in s
+_top opens in the first frame above all (eg:if there are five frames) 
+_self opens in same page 
+_blank then it opens in new tab(we mostly use _blank)-->
+<img src="new.jpeg" alt="Alternate" height="" width=""> 
+<!--always we must use vertical scrolling only ..people don't like horizonatal scrolling-->
+<!--a and img are inline elements-->
+
+    <p>Advanced Topics From HTML5</p>
+
+    <!--to show different images in mobile and web at same time we use picture tag-->
+<picture>
+    <source media="(min-width:960px)" srcset="https://tse4.mm.bing.net/th?id=OIP.nyFLBYjD207JNHC4hBQBAwHaE8&pid=Api&P=0&h=180">
+    <source media="(min-width:670px)" srcset="https://tse1.mm.bing.net/th?id=OIP.YAXlTjvtEKchdMVc5laZhwHaE8&pid=Api&P=0&h=180">
+    <img width="50%" src="https://tse2.mm.bing.net/th?id=OIP.Z_PIeIRDajXPmZHROt-T_QHaEK&pid=Api&P=0&h=180" alt="MDN Web Docs" />
+</picture>
+<br>
+<video controls height="" width="" autoplay muted>
+ <source src="sample-mp4-file-small.mp4" >
+</video>
+<!--in above autoplay helps to play the video automatically when the window is opened in browser
+sometimes in chrome will not play because if there is some disturbiong sound ...so for that we have to keep MUTED...it will mute the audio-->
+
+ <audio controls>
+     <source src="sample-mp4-file-small.mp4" >
+ </audio>
+ <br>
+ 
+ 
+ <!--To copy youtube links we have to copy embeded links-->
+ <iframe width="677" height="381" src="https://www.youtube.com/embed/7uGtwnNV5oQ" title="🔥🤩 Step-by-Step Node js CRUD REST APIs Complete Course Using Sequelize ORM, Express, MySQL 🔥🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <br>
+<br>
+<p>PDF examples </p>
+ <iframe src="./SBMSD-Darshanam-19-06-2023 (3).pdf" frameborder="0" height="400" width="500"></iframe><br><br>
+ <!--go to youtube or anyother website click on share and copy the embeded link you will get all the below line and paste it in your site-->
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/90KCma6Etf0?si=v6SIT0L-aqbqL5Vp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <!--make a site using youtube api as an assignment-->
+ <!--we can use embed also in place of iframe but now we are using iframe -->
+ <br>
+<p>Lists</p>
+ <ol>
+        <li>She</li>
+        <li>He</li>
+        <li>Me</li>
+    
+ </ol>
+ <ul>
+    <li>lion</li>
+    <li>tiger</li>
+    <li>cheetha</li>
+</ul>
+<dl>
+    <dt>html</dt>
+    <dd>Excellent</dd>
+</dl>
+<p>Tables </p>
+<table>
+    <tr>
+        <th>S.no</th>
+        <th>Name</th>
+        <th>Mobile</tf>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Sharukh</td>
+        <td>98*********6</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Simha</td>
+        <td>98*9*******6</td>
+    </tr>
+</table>
+<!----for this check in MDN main documentation of HTML -->
+<p>Other elements which are not regularly used are:</p>
+<marquee behavior="slope" direction="down">Happy</marquee>
+<marquee behavior="slope" direction="up">Happy</marquee>
+<marquee behavior="slope" direction="right">Happy</marquee>
+<marquee behavior="slope" direction="left">Happy</marquee><br>
+<!---formating tags-->
+H<sub>2</sub>0<br>x<sup>2</sup><br>
+<em><strong>Lahar</strong></em><br>
+<em>Lahar</em><br>
+<u>Lahar</u><br>
+<del>My Pride</del> <!---del is used instead of strike-->
+
+</body>
+</html>
