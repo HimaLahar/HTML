@@ -1,0 +1,124 @@
+/*Trying differnet text properties*/
+
+/* to make it vertical align need to use...this will not come exactly into middle 
+    for that we have to use flex or grid options which we will learn in next classes
+    px means width and height of my entire page
+    we can use % also ...means % is calculated on basis of it parent element
+    tp occupy 20 of whole body we use px to use 20 of its parent we use %
+    we can give font weights also and copy the link and paste that link in html so that we can use them in our website*/
+
+*
+{
+    border: 1px rgb(241, 146, 146) solid;
+    box-sizing: border-box;
+    /*generally we give this box-sizing and font-family also in asterick only */
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* for font-family we go to google forms and select the font-family and we ca  select the desired one 
+    generally it is given in * because we have to same font for all website but few browsers won't support so we give two to three different font-families as below*/
+    
+}
+
+h1{
+    text-align: center;
+    vertical-align:bottom;
+    margin:12px;
+    padding: 5px;
+    height: 48px;
+    /* text-decoration: underline; */
+    text-transform: capitalize; 
+    /* text-decoration-color:rgb(255, 0, 98); */
+    /* we can give this in cube also they are two types linear and cubicule */
+    background:linear-gradient(to right, yellow,crimson, blue, red, aqua, yellow,crimson, blue, red, aqua); 
+    /* background: radial-gradient( yellow,crimson, blue, red, aqua, yellow,crimson, blue, red, aqua); */
+    /* to make it light we can give opacity */
+    /* opacity: 0.7; */
+    color: rgb(78, 16, 221);
+    
+    
+}
+/* gradient mens fix of two three colors 
+background: linear-gradient(blue red yellow)*/
+
+.menu li{
+    /*display: none;
+    visibility:none*/
+  display: inline;
+  text-transform: capitalize;
+    
+}
+
+/* by default we can't apply height and width to inline elements only for block elements they are applicable  */
+a{
+    text-decoration: none;
+    
+}
+
+/*css selectors are tagname, class name(.), id(#)*/
+/*#data>p if I give like this it won't work because data don't have child so to work we have to give data>div...
+so >works for children
+~ means these two are siblings color will apply only to its subling not to it as here there are three divs if given id=data to first div the other two divs will get background color*
++ means it selects the immediate single sibling where as ~ selects all siblings*/
+/* #data>article div, .menu li
+{
+    background-color: rgb(185, 147, 221);
+} */
+/* to apply to immediate one we apply +
+In css there is rule called dry.    means no code should be repeated so for that we can use class names or divs etc multiple times seperated by , 
+*/
+/* text-overflow is used to show the overflow or to stop it */
+
+.firstDiv
+{
+    background-color: antiquewhite;
+    padding: 20px;
+    /* just commented so that the page can look good  */
+    /* position: sticky;
+    left:100px;
+    top:100px; */
+    /* z-index: 2; */
+}
+/* need to learn this Z-index
+.secondDiv
+{
+    z-index: 10;
+} */
+/* section{
+    padding: 100px;} */
+img
+{
+    float: left;
+    
+}
+/* to get menu to right then we have to use  */
+.menu {
+    
+    float:right;
+       
+}
+/* clear must be given to the div in which the float is given because it is related to that whole frame */
+#data
+{
+    clear: both;
+ 
+}
+
+#container
+{
+    height:120px;
+    width: 300px;
+    border: 1px solid red;
+}
+.child
+{
+    border:2px solid black;
+    background-color: coral;
+    height: 100px;
+    width: 25%;
+    /* if we give margin gap will come in between the child elements */
+    margin: 10px;
+    float:left;
+}
+#para
+{
+    display: inline-block;
+}
