@@ -1,0 +1,27 @@
+*{font-style:italic;}
+header{
+     height: 50px;
+}
+.card
+{
+     --bs-card-border-color: #ffc107;
+     --bs-border-color: #74dc3587;
+}
+.firstDiv
+{
+     background-color: rgb(228, 170, 62);
+}
+.heading2{
+     background-color: rgb(235, 99, 173);
+}
+.btn1
+{
+     background-color: rgb(119, 99, 235);
+     color: white;
+     border: 0px;
+     font-style:italic;
+}
+.newcard
+{
+ background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)), url("https://thumbs.dreamstime.com/z/hot-pink-abstract-background-pink-glitter-closeup-photo-pink-shimmer-wrapping-paper-sparkling-festive-backgrop-valentine-97628399.jpg?w=992");
+ }
