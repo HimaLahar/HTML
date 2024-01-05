@@ -1,0 +1,39 @@
+
+/*counter.css*/
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    border:0.1px rgba(232, 234, 235, 0.842) solid;  
+ 
+  }
+#counter
+{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 5px 5px black;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin-left:85vh;
+  margin-top:15vh; 
+}
+#number
+{
+  float:right;
+  height: 20vh; 
+  margin-right:35vh;   
+  color:rgb(226, 43, 43);
+  margin-top:0vh;
+   
+}
+
